@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#nav {
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+#navp1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3px;
+}
+#navp1 h1 {
+  font-size: 33px;
+  border: 1.5px solid black;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 50px;
+  
+}
+#navp1 i {
+  font-size: 33px;
+  border: 1.5px solid black;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+#navp2 h1 {
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+#navp3 button {
+  padding: 7px 12px;
+  border-radius: 50px;
+  border: 1.5px solid black;
+  font-size: 17px;
+  font-weight: 500;
+}
+#b2 {
+  border: none;
+  color: white;
+  background-color: orangered;
+}
+#main > h1 {
+  font-size: 150px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  object-position: top;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+#im1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#im2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#im3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+#btm-1 {
+  bottom: 5%;
+  left: 3%;
+  position: absolute;
+  font-size: 17px;
+}
+#main {
+  position: relative;
+}
+
+#main > .si {
+  position: absolute;
+  bottom: 10%;
+  right: 3%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  
+  width: auto;
+}
+
+#main > .si > i {
+  font-size: 30px;
+   padding: 7px 12px;
+}
+.si > h5 {
+
+    bottom: -40%;
+    right: 1%;
+    position: absolute;
+    font-size: 17px;
+
+}
